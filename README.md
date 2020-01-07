@@ -12,7 +12,7 @@ this builder can batch compile markdown documents to html/css/js docs.it's based
 git clone https://github.com/colin-chang/md2html.git && cd src
 python3 app.py input output
 ```
-be sure to custom the input and output parameter before executing. input can be a markdown file(.md) or a diectory contains markdown files.
+be sure to custom the input and output parameter before executing. input can be a markdown file(.md) or a directory contains markdown files.
 
 * Node v12.13.0 and Python 3.x are required
 
@@ -30,4 +30,4 @@ docker run -it -v /your_input_dir:/app/input -v /your_output_dir:/app/output col
 ```
 
 ## Tips
-in addition to outter links, we currently only support associated resources of markdown files from its peer directory or subdirectories.
+in addition to outer links, we currently only support associated resources of markdown files from its peer directory or subdirectories.
